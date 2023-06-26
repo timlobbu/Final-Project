@@ -15,7 +15,10 @@ const Homepage = () => {
             <Top />
             <main>
                 <Zoom>
-                {/* tambah penjelasan/ajakan */}
+                <header className="row tm-welcome-section">
+                <h2 className="col-12 text-center tm-section-title">Marijo makang disini kawan</h2>
+                <p className="col-12 text-center">Budayakan malas memasa, karena memasa torang pe kerja. Singgah jo, nanti om deng tanta yang ator ngoni pe makang. Abis makang jang lupa bayar neh, nda mahal-mahal skali kwa eh. Puru kenyang, ngoni senang, om deng tanta senang.</p>
+                </header>
                 
                 </Zoom>
                 {/* Menu */}
