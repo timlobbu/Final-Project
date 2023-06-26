@@ -57,7 +57,13 @@ export default function Contact() {
             4. Copy only URL and paste it within the src="" field below
         */}
             <div className="tm-container-inner-2 tm-map-section">
-            {/* tambah maps */}
+            <div className="row">
+                <div className="col-12">
+                <div className="tm-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3827.5269101164486!2d125.17816583001341!3d1.4459888205715434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1669641277843!5m2!1sen!2sid" frameBorder={0} style={{border: 0}} allowFullScreen ></iframe>
+                </div>
+                </div>
+            </div>
             </div>
             <div className="tm-container-inner-2 tm-info-section">
             <div className="row">
